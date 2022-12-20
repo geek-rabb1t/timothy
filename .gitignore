@@ -1,0 +1,11 @@
+*.net
+*.kicad_prl
+fp-lib-table
+sym-lib-table
+fp-info-cache
+pcb/timothy_pcb/right-control/right-control-backups/
+pcb/timothy_pcb/left-finger/left-finger-backups/
+pcb/timothy_pcb/left-control/left-control-backups/
+pcb/timothy_pcb/timothy_pcb-backups/
+pcb/timothy_pcb/keyboard.pretty/
+*.afdesign
