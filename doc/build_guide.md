@@ -446,7 +446,7 @@ https://xn--p8jqu4215bemxd.com/archives/397#i-6
 
 ### Pro Micro（通常の手順）の場合
 
-左右のキーボードに同じファームウェアを書き込みます。
+左右のキーボードに同じファームウェアを書き込みます。  
 ファームウェアの書き込みが終わったら、左右のキーボードをtrrsケーブルで接続します。
 接続後、左手側のキーボードだけをPCに接続します。
 
@@ -455,34 +455,35 @@ https://xn--p8jqu4215bemxd.com/archives/397#i-6
 
 https://github.com/geek-rabb1t/timothy/blob/master/firmware/pro_micro/keymap_cheatsheet_timothy.pdf
 
-#### QMK Toolbox を使ったファームウェアの書き込み手順
 
-以下のサイトからQMK Toolbox をダウンロードし、インストールします。
+ファームウェアはRemapに登録されています。  
+以下のリンクをChromeで開いて、ファームウェアの書き込みを行ってください。
 
-https://github.com/qmk/qmk_toolbox/releases
+https://remap-keys.app/catalog/wusqpVen3egHIrT8CGxD/firmware
 
-インストールしたら、以下のURLからファームウェアをダウンロードします。
-
-https://github.com/geek-rabb1t/timothy/blob/master/firmware/pro_micro/timothy_via.zip
 
 QMK Toolboxを以下のように設定したら、片手分のキーボードをPCに接続します。  
 コントロール基板のリセットをピンセットでショートし、書き込みを行います。
 
-![QMKTookboxの設定](./images/qmktoolbox.jpg)
-
 #### キーマップの変更方法
 
-Remapを使うことで、自由にキーマップを変更することができます。
+Remapを使うことで、自由にキーマップを変更することができます。  
 Chromeでサイトにアクセスして変更してください。
-
-まだ、Remapへの登録申請が済んでいないので、キーマップ書き換えJSONファイルが必要となります。
-以下のURLからダウンロードしてください。
-
-https://github.com/geek-rabb1t/timothy/blob/master/firmware/pro_micro/Timothy-via.json
 
 ### BLE Micro Proの場合
 
-以下のzipファイルをダウンロードします。
+新品のBLE Micro Proの場合、マイコンにデフォルトのファームウェアを書き込む必要があります。  
+Chromeで以下のサイトにアクセスにアクセスし、  
+ブートローダ(ble_micro_pro_bootloader_0_11_x)とデフォルトのアプリケーション(ble_micro_pro_default_0_11_x)の書き込みを行ってください。
+
+https://sekigon-gonnoc.github.io/BLE-Micro-Pro-WebConfigurator/
+
+詳しい手順は、以下のURLを参考にしてください。
+
+https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/getting_started?id=%e3%83%95%e3%82%a1%e3%83%bc%e3%83%a0%e3%82%a6%e3%82%a7%e3%82%a2%e3%81%ae%e3%82%a2%e3%83%83%e3%83%97%e3%83%87%e3%83%bc%e3%83%88
+
+
+BLE Micro Proが参照する設定ファイルは、以下のzipファイルに格納されています。
 
 https://github.com/geek-rabb1t/timothy/blob/master/firmware/ble_micro_pro/setting.zip
 
